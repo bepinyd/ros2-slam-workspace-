@@ -1,0 +1,31 @@
+[0.286s] Invoking command in '/home/yolo/ros_practice_ws/build/new_practice_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_practice_bringup -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_practice_bringup
+[0.335s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.569s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.734s] -- Configuring done
+[0.747s] -- Generating done
+[0.749s] -- Build files have been written to: /home/yolo/ros_practice_ws/build/new_practice_bringup
+[0.754s] Invoked command in '/home/yolo/ros_practice_ws/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_practice_bringup -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_practice_bringup
+[0.760s] Invoking command in '/home/yolo/ros_practice_ws/build/new_practice_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_practice_bringup -- -j4 -l4
+[0.824s] Invoked command in '/home/yolo/ros_practice_ws/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_practice_bringup -- -j4 -l4
+[0.878s] Invoking command in '/home/yolo/ros_practice_ws/build/new_practice_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_practice_bringup
+[0.892s] -- Install configuration: ""
+[0.892s] -- Execute custom install script
+[0.893s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup//launch/new_bringup.launch.xml
+[0.895s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup//rviz/urdf_config.rviz
+[0.896s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup//world/my_world
+[0.899s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/ament_index/resource_index/package_run_dependencies/new_practice_bringup
+[0.900s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/ament_index/resource_index/parent_prefix_path/new_practice_bringup
+[0.900s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/environment/ament_prefix_path.sh
+[0.900s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/environment/ament_prefix_path.dsv
+[0.901s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/environment/path.sh
+[0.901s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/environment/path.dsv
+[0.901s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/local_setup.bash
+[0.902s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/local_setup.sh
+[0.902s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/local_setup.zsh
+[0.902s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/local_setup.dsv
+[0.903s] -- Symlinking: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.dsv
+[0.919s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/ament_index/resource_index/packages/new_practice_bringup
+[0.920s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/cmake/new_practice_bringupConfig.cmake
+[0.920s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/cmake/new_practice_bringupConfig-version.cmake
+[0.921s] -- Up-to-date symlink: /home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.xml
+[0.927s] Invoked command in '/home/yolo/ros_practice_ws/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_practice_bringup

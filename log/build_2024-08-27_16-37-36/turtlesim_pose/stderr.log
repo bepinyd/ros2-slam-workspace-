@@ -1,0 +1,9 @@
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:16:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid TurtlesimPose::turtle1callback(const Pose&)[m[K’
+   16 | void [01;31m[KTurtlesimPose[m[K::turtle1callback(const turtlesim::msg::Pose &pose){
+      |      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:12:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid TurtlesimPose::turtle1callback(const Pose&)[m[K’ previously defined here
+   12 | void [01;36m[KTurtlesimPose[m[K::turtle1callback(const turtlesim::msg::Pose &pose){
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_pose_node.dir/build.make:76: CMakeFiles/turtlesim_pose_node.dir/src/turtlesim_pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_pose_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

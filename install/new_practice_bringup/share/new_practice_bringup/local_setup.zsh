@@ -1,0 +1,1 @@
+/home/yolo/ros_practice_ws/build/new_practice_bringup/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,205 @@
+[4.156s] DEBUG:colcon:Command line arguments: ['/home/yolo/.local/bin/colcon', 'build']
+[4.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ab960799cc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ab960798af0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ab960798af0>>, mixin_verb=('build',))
+[4.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.307s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yolo/ros_practice_ws'
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_practice_bringup) by extensions ['ignore', 'ignore_ament_install']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_practice_bringup) by extension 'ignore'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_practice_bringup) by extension 'ignore_ament_install'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_practice_bringup) by extensions ['colcon_pkg']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_practice_bringup) by extension 'colcon_pkg'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_practice_bringup) by extensions ['colcon_meta']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_practice_bringup) by extension 'colcon_meta'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_practice_bringup) by extensions ['ros']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_practice_bringup) by extension 'ros'
+[4.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/new_practice_bringup' with type 'ros.ament_cmake' and name 'new_practice_bringup'
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_robot_description) by extension 'ignore'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_robot_description) by extension 'ignore_ament_install'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_robot_description) by extensions ['colcon_pkg']
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_robot_description) by extension 'colcon_pkg'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_robot_description) by extensions ['colcon_meta']
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_robot_description) by extension 'colcon_meta'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_robot_description) by extensions ['ros']
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_robot_description) by extension 'ros'
+[4.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/new_robot_description' with type 'ros.ament_cmake' and name 'new_robot_description'
+[4.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.696s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yolo/ros2_ws/install
+[4.747s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/humble
+[4.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.942s] Level 5:colcon.colcon_core.verb:set package 'new_practice_bringup' build argument 'cmake_args' from command line to 'None'
+[4.942s] Level 5:colcon.colcon_core.verb:set package 'new_practice_bringup' build argument 'cmake_target' from command line to 'None'
+[4.942s] Level 5:colcon.colcon_core.verb:set package 'new_practice_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.942s] Level 5:colcon.colcon_core.verb:set package 'new_practice_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[4.942s] Level 5:colcon.colcon_core.verb:set package 'new_practice_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[4.942s] Level 5:colcon.colcon_core.verb:set package 'new_practice_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[4.942s] Level 5:colcon.colcon_core.verb:set package 'new_practice_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[4.942s] Level 5:colcon.colcon_core.verb:set package 'new_practice_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[4.942s] Level 5:colcon.colcon_core.verb:set package 'new_practice_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.942s] DEBUG:colcon.colcon_core.verb:Building package 'new_practice_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/ros_practice_ws/build/new_practice_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/ros_practice_ws/install/new_practice_bringup', 'merge_install': False, 'path': '/home/yolo/ros_practice_ws/src/new_practice_bringup', 'symlink_install': False, 'test_result_base': None}
+[4.987s] Level 5:colcon.colcon_core.verb:set package 'new_robot_description' build argument 'cmake_args' from command line to 'None'
+[4.987s] Level 5:colcon.colcon_core.verb:set package 'new_robot_description' build argument 'cmake_target' from command line to 'None'
+[4.987s] Level 5:colcon.colcon_core.verb:set package 'new_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.987s] Level 5:colcon.colcon_core.verb:set package 'new_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[4.987s] Level 5:colcon.colcon_core.verb:set package 'new_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[4.987s] Level 5:colcon.colcon_core.verb:set package 'new_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[4.987s] Level 5:colcon.colcon_core.verb:set package 'new_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[4.987s] Level 5:colcon.colcon_core.verb:set package 'new_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[4.987s] Level 5:colcon.colcon_core.verb:set package 'new_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.987s] DEBUG:colcon.colcon_core.verb:Building package 'new_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/ros_practice_ws/build/new_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/ros_practice_ws/install/new_robot_description', 'merge_install': False, 'path': '/home/yolo/ros_practice_ws/src/new_robot_description', 'symlink_install': False, 'test_result_base': None}
+[5.029s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.084s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yolo/ros_practice_ws/src/new_practice_bringup' with build type 'ament_cmake'
+[5.084s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yolo/ros_practice_ws/src/new_practice_bringup'
+[5.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yolo/ros_practice_ws/src/new_robot_description' with build type 'ament_cmake'
+[5.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yolo/ros_practice_ws/src/new_robot_description'
+[5.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/ros_practice_ws/build/new_practice_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_practice_bringup -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_practice_bringup
+[5.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/ros_practice_ws/build/new_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_robot_description -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_robot_description
+[7.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/ros_practice_ws/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_practice_bringup -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_practice_bringup
+[7.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/ros_practice_ws/build/new_practice_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_practice_bringup -- -j4 -l4
+[7.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/ros_practice_ws/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_robot_description -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_robot_description
+[7.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/ros_practice_ws/build/new_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_robot_description -- -j4 -l4
+[7.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/ros_practice_ws/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_robot_description -- -j4 -l4
+[7.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/ros_practice_ws/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_practice_bringup -- -j4 -l4
+[7.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/ros_practice_ws/build/new_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_robot_description
+[7.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/ros_practice_ws/build/new_practice_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_practice_bringup
+[7.610s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_practice_bringup)
+[7.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/ros_practice_ws/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_practice_bringup
+[7.654s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup' for CMake module files
+[7.655s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup' for CMake config files
+[7.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_practice_bringup', 'cmake_prefix_path')
+[7.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/hook/cmake_prefix_path.ps1'
+[7.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/hook/cmake_prefix_path.dsv'
+[7.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/hook/cmake_prefix_path.sh'
+[7.698s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup/bin'
+[7.698s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup/lib/pkgconfig/new_practice_bringup.pc'
+[7.698s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup/lib/python3.10/site-packages'
+[7.699s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup/bin'
+[7.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.ps1'
+[7.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.dsv'
+[7.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.sh'
+[7.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.bash'
+[7.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.zsh'
+[7.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/ros_practice_ws/install/new_practice_bringup/share/colcon-core/packages/new_practice_bringup)
+[7.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_robot_description)
+[7.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/ros_practice_ws/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_robot_description
+[7.793s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description' for CMake module files
+[7.794s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description' for CMake config files
+[7.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_robot_description', 'cmake_prefix_path')
+[7.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/hook/cmake_prefix_path.ps1'
+[7.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/hook/cmake_prefix_path.dsv'
+[7.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/hook/cmake_prefix_path.sh'
+[7.839s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description/bin'
+[7.840s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description/lib/pkgconfig/new_robot_description.pc'
+[7.840s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description/lib/python3.10/site-packages'
+[7.840s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description/bin'
+[7.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.ps1'
+[7.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.dsv'
+[7.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.sh'
+[7.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.bash'
+[7.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.zsh'
+[7.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/ros_practice_ws/install/new_robot_description/share/colcon-core/packages/new_robot_description)
+[7.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_practice_bringup)
+[7.979s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup' for CMake module files
+[7.980s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup' for CMake config files
+[7.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_practice_bringup', 'cmake_prefix_path')
+[8.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/hook/cmake_prefix_path.ps1'
+[8.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/hook/cmake_prefix_path.dsv'
+[8.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/hook/cmake_prefix_path.sh'
+[8.023s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup/bin'
+[8.023s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup/lib/pkgconfig/new_practice_bringup.pc'
+[8.023s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup/lib/python3.10/site-packages'
+[8.023s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_practice_bringup/bin'
+[8.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.ps1'
+[8.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.dsv'
+[8.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.sh'
+[8.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.bash'
+[8.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_practice_bringup/share/new_practice_bringup/package.zsh'
+[8.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/ros_practice_ws/install/new_practice_bringup/share/colcon-core/packages/new_practice_bringup)
+[8.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_robot_description)
+[8.147s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description' for CMake module files
+[8.148s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description' for CMake config files
+[8.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_robot_description', 'cmake_prefix_path')
+[8.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/hook/cmake_prefix_path.ps1'
+[8.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/hook/cmake_prefix_path.dsv'
+[8.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/hook/cmake_prefix_path.sh'
+[8.190s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description/bin'
+[8.190s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description/lib/pkgconfig/new_robot_description.pc'
+[8.191s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description/lib/python3.10/site-packages'
+[8.191s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/ros_practice_ws/install/new_robot_description/bin'
+[8.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.ps1'
+[8.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.dsv'
+[8.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.sh'
+[8.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.bash'
+[8.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.zsh'
+[8.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/ros_practice_ws/install/new_robot_description/share/colcon-core/packages/new_robot_description)
+[8.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.237s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.301s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.324s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.369s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yolo/ros_practice_ws/install/local_setup.ps1'
+[8.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yolo/ros_practice_ws/install/_local_setup_util_ps1.py'
+[8.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yolo/ros_practice_ws/install/setup.ps1'
+[8.421s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yolo/ros_practice_ws/install/local_setup.sh'
+[8.422s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yolo/ros_practice_ws/install/_local_setup_util_sh.py'
+[8.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yolo/ros_practice_ws/install/setup.sh'
+[8.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yolo/ros_practice_ws/install/local_setup.bash'
+[8.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yolo/ros_practice_ws/install/setup.bash'
+[8.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yolo/ros_practice_ws/install/local_setup.zsh'
+[8.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yolo/ros_practice_ws/install/setup.zsh'

@@ -1,0 +1,50 @@
+[0.216s] Invoking command in '/home/yolo/ros_practice_ws/build/new_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_robot_description -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_robot_description
+[0.496s] -- The C compiler identification is GNU 11.4.0
+[0.864s] -- The CXX compiler identification is GNU 11.4.0
+[0.910s] -- Detecting C compiler ABI info
+[1.149s] -- Detecting C compiler ABI info - done
+[1.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.170s] -- Detecting C compile features
+[1.172s] -- Detecting C compile features - done
+[1.178s] -- Detecting CXX compiler ABI info
+[1.362s] -- Detecting CXX compiler ABI info - done
+[1.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.384s] -- Detecting CXX compile features
+[1.385s] -- Detecting CXX compile features - done
+[1.394s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.740s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.085s] -- Configuring done
+[2.097s] -- Generating done
+[2.100s] -- Build files have been written to: /home/yolo/ros_practice_ws/build/new_robot_description
+[2.121s] Invoked command in '/home/yolo/ros_practice_ws/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_robot_description -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_robot_description
+[2.125s] Invoking command in '/home/yolo/ros_practice_ws/build/new_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_robot_description -- -j4 -l4
+[2.208s] Invoked command in '/home/yolo/ros_practice_ws/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_robot_description -- -j4 -l4
+[2.278s] Invoking command in '/home/yolo/ros_practice_ws/build/new_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_robot_description
+[2.297s] -- Install configuration: ""
+[2.297s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//urdf
+[2.298s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//urdf/common_properties.xacro
+[2.298s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//urdf/base_robot_gazebo.xacro
+[2.299s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//urdf/base_robot.xacro
+[2.299s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//urdf/laser.xacro
+[2.300s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//urdf/my_robot.xacro
+[2.300s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//launch
+[2.300s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//launch/display.launch.py
+[2.300s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//launch/my_robot.launch.xml
+[2.301s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//rviz
+[2.301s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description//rviz/urdf_config.rviz
+[2.302s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/ament_index/resource_index/package_run_dependencies/new_robot_description
+[2.303s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/ament_index/resource_index/parent_prefix_path/new_robot_description
+[2.303s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/environment/ament_prefix_path.sh
+[2.303s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/environment/ament_prefix_path.dsv
+[2.304s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/environment/path.sh
+[2.304s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/environment/path.dsv
+[2.305s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/local_setup.bash
+[2.305s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/local_setup.sh
+[2.305s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/local_setup.zsh
+[2.306s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/local_setup.dsv
+[2.306s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.dsv
+[2.307s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/ament_index/resource_index/packages/new_robot_description
+[2.307s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/cmake/new_robot_descriptionConfig.cmake
+[2.307s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/cmake/new_robot_descriptionConfig-version.cmake
+[2.307s] -- Installing: /home/yolo/ros_practice_ws/install/new_robot_description/share/new_robot_description/package.xml
+[2.451s] Invoked command in '/home/yolo/ros_practice_ws/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_robot_description

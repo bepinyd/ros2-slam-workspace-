@@ -1,0 +1,11 @@
+[0.107s] Invoking command in '/home/yolo/ros_practice_ws/build/turtlesim_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/turtlesim_pose -- -j4 -l4
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_pose_node[0m
+[0.196s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_pose_node.dir/src/turtlesim_pose.cpp.o[0m
+[0.230s] [01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:2:9:[m[K [01;31m[Kfatal error: [m[Kturtlesim_pose.hpp: No such file or directory
+[0.230s]     2 | #include[01;31m[K"turtlesim_pose.hpp"[m[K
+[0.230s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.230s] compilation terminated.
+[0.232s] gmake[2]: *** [CMakeFiles/turtlesim_pose_node.dir/build.make:76: CMakeFiles/turtlesim_pose_node.dir/src/turtlesim_pose.cpp.o] Error 1
+[0.232s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_pose_node.dir/all] Error 2
+[0.232s] gmake: *** [Makefile:146: all] Error 2
+[0.237s] Invoked command in '/home/yolo/ros_practice_ws/build/turtlesim_pose' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/turtlesim_pose -- -j4 -l4

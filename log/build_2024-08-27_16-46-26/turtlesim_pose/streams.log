@@ -1,0 +1,30 @@
+[0.107s] Invoking command in '/home/yolo/ros_practice_ws/build/turtlesim_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/turtlesim_pose -- -j4 -l4
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_pose_node[0m
+[0.238s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_pose_node.dir/src/turtlesim_pose.cpp.o[0m
+[11.127s] [100%] [32m[1mLinking CXX executable turtlesim_pose_node[0m
+[11.741s] [100%] Built target turtlesim_pose_node
+[11.758s] Invoked command in '/home/yolo/ros_practice_ws/build/turtlesim_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/turtlesim_pose -- -j4 -l4
+[11.805s] Invoking command in '/home/yolo/ros_practice_ws/build/turtlesim_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/turtlesim_pose
+[11.816s] -- Install configuration: ""
+[11.818s] -- Installing: /home/yolo/ros_practice_ws/install/turtlesim_pose/lib/turtlesim_pose/turtlesim_pose_node
+[11.823s] -- Set runtime path of "/home/yolo/ros_practice_ws/install/turtlesim_pose/lib/turtlesim_pose/turtlesim_pose_node" to ""
+[11.824s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/include/turtlesim_pose/include
+[11.824s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/include/turtlesim_pose/include/turtlesim_pose
+[11.824s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/include/turtlesim_pose/include/turtlesim_pose/turtlesim_pose.hpp
+[11.824s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/include/turtlesim_pose/include/turtlesim_pose/turtlesim_pose
+[11.825s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/ament_index/resource_index/package_run_dependencies/turtlesim_pose
+[11.826s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/ament_index/resource_index/parent_prefix_path/turtlesim_pose
+[11.826s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/environment/ament_prefix_path.sh
+[11.826s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/environment/ament_prefix_path.dsv
+[11.826s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/environment/path.sh
+[11.827s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/environment/path.dsv
+[11.827s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/local_setup.bash
+[11.827s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/local_setup.sh
+[11.827s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/local_setup.zsh
+[11.827s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/local_setup.dsv
+[11.828s] -- Installing: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/package.dsv
+[11.828s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/ament_index/resource_index/packages/turtlesim_pose
+[11.828s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/cmake/turtlesim_poseConfig.cmake
+[11.828s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/cmake/turtlesim_poseConfig-version.cmake
+[11.828s] -- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/package.xml
+[11.830s] Invoked command in '/home/yolo/ros_practice_ws/build/turtlesim_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/turtlesim_pose

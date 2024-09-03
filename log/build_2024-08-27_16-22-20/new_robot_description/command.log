@@ -1,0 +1,6 @@
+Invoking command in '/home/yolo/ros_practice_ws/build/new_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_robot_description -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_robot_description
+Invoked command in '/home/yolo/ros_practice_ws/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yolo/ros_practice_ws/src/new_robot_description -DCMAKE_INSTALL_PREFIX=/home/yolo/ros_practice_ws/install/new_robot_description
+Invoking command in '/home/yolo/ros_practice_ws/build/new_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_robot_description -- -j4 -l4
+Invoked command in '/home/yolo/ros_practice_ws/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/new_robot_description -- -j4 -l4
+Invoking command in '/home/yolo/ros_practice_ws/build/new_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_robot_description
+Invoked command in '/home/yolo/ros_practice_ws/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yolo/ros_practice_ws/build/new_robot_description

@@ -1,0 +1,2 @@
+Invoking command in '/home/yolo/ros_practice_ws/build/turtlesim_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/turtlesim_pose -- -j4 -l4
+Invoked command in '/home/yolo/ros_practice_ws/build/turtlesim_pose' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yolo/ros_practice_ws/build/turtlesim_pose -- -j4 -l4

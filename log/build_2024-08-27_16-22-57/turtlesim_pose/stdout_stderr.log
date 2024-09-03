@@ -1,0 +1,87 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/yolo/ros_practice_ws/src/turtlesim_pose/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yolo/ros_practice_ws/build/turtlesim_pose
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_pose_node.dir/src/turtlesim_pose.cpp.o[0m
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:19:33:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   19 | RCLCPP_INFO_STREAM(get_logget(),[01;35m[K'THE TX VALUE IS : '[m[K<< TX << "\N" <<" TY: "<< TY << "\M");
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:25:47:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   25 |     auto node=std::make_shared<TurtlesimPose>([01;35m[K'TURTLE1'[m[K);
+      |                                               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:3:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholders[m[K’ has not been declared
+    3 | using namespace std::[01;31m[Kplaceholders[m[K::_1;
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:3:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ is not a namespace-name
+    3 | using namespace std::placeholders::[01;31m[K_1[m[K;
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtlesimPose[m[K’ does not name a type
+    4 | [01;31m[KTurtlesimPose[m[K::TurtlesimPose(const std::string &name) : Node(name)
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:11:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ does not name a type
+   11 | void turtle1callback(const [01;31m[Kturtlesim[m[K::msg::Pose &pose){
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:11:42:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   11 | void turtle1callback(const turtlesim::msg[01;31m[K::[m[KPose &pose){
+      |                                          [01;31m[K^~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:11:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   11 | void turtle1callback[34m[K([m[Kconst turtlesim::msg[01;31m[K:[m[K[32m[K:[m[KPose &pose){
+      |                     [34m[K~[m[K                    [01;31m[K^[m[K[32m[K~[m[K
+      |                                          [32m[K)[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:11:42:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   11 | void turtle1callback(const turtlesim::msg[01;31m[K::[m[KPose &pose){
+      |                                          [01;31m[K^~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:15:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ does not name a type
+   15 | void turtle1callback(const [01;31m[Kturtlesim[m[K::msg::Pose &pose){
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:15:42:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   15 | void turtle1callback(const turtlesim::msg[01;31m[K::[m[KPose &pose){
+      |                                          [01;31m[K^~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:15:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   15 | void turtle1callback[34m[K([m[Kconst turtlesim::msg[01;31m[K:[m[K[32m[K:[m[KPose &pose){
+      |                     [34m[K~[m[K                    [01;31m[K^[m[K[32m[K~[m[K
+      |                                          [32m[K)[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:15:42:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   15 | void turtle1callback(const turtlesim::msg[01;31m[K::[m[KPose &pose){
+      |                                          [01;31m[K^~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   24 |     [01;31m[Krclcpp[m[K::init(argc,argv);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:25:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   25 |     auto node=std::[01;31m[Kmake_shared[m[K<TurtlesimPose>('TURTLE1');
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+    1 | #include "turtlesim_pose/turtlesim_pose.hpp"
+  +++ |+[32m[K#include <memory>[m[K
+    2 | 
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:25:32:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtlesimPose[m[K’ was not declared in this scope
+   25 |     auto node=std::make_shared<[01;31m[KTurtlesimPose[m[K>('TURTLE1');
+      |                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   26 |     [01;31m[Krclcpp[m[K::spin(node);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/yolo/ros_practice_ws/src/turtlesim_pose/src/turtlesim_pose.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   27 |     [01;31m[Krclcpp[m[K::shutdown();
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_pose_node.dir/build.make:76: CMakeFiles/turtlesim_pose_node.dir/src/turtlesim_pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_pose_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

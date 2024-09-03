@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_pose_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_pose_node.dir/src/turtlesim_pose.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtlesim_pose_node[0m
+[100%] Built target turtlesim_pose_node
+-- Install configuration: ""
+-- Installing: /home/yolo/ros_practice_ws/install/turtlesim_pose/lib/turtlesim_pose/turtlesim_pose_node
+-- Set runtime path of "/home/yolo/ros_practice_ws/install/turtlesim_pose/lib/turtlesim_pose/turtlesim_pose_node" to ""
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/include/turtlesim_pose/include
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/include/turtlesim_pose/include/turtlesim_pose
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/include/turtlesim_pose/include/turtlesim_pose/turtlesim_pose.hpp
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/include/turtlesim_pose/include/turtlesim_pose/turtlesim_pose
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/ament_index/resource_index/package_run_dependencies/turtlesim_pose
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/ament_index/resource_index/parent_prefix_path/turtlesim_pose
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/environment/path.sh
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/environment/path.dsv
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/local_setup.bash
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/local_setup.sh
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/local_setup.zsh
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/local_setup.dsv
+-- Installing: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/package.dsv
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/ament_index/resource_index/packages/turtlesim_pose
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/cmake/turtlesim_poseConfig.cmake
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/cmake/turtlesim_poseConfig-version.cmake
+-- Up-to-date: /home/yolo/ros_practice_ws/install/turtlesim_pose/share/turtlesim_pose/package.xml

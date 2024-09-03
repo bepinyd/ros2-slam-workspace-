@@ -1,0 +1,10 @@
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/uninstall.dir
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/turtlesim_pose_uninstall.dir
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/turtlesim_pose_node.dir
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/test.dir
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/edit_cache.dir
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/rebuild_cache.dir
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/list_install_components.dir
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/install.dir
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/install/local.dir
+/home/yolo/ros_practice_ws/build/turtlesim_pose/CMakeFiles/install/strip.dir
